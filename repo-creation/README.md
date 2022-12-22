@@ -1,3 +1,16 @@
+## Usage
+
+```hcl
+module "github_repo" {
+  source = "https://github.com/akshit-modi/github-with-terraform/tree/main/repo-creation"
+  
+  token             = "ghp_xxx"
+  repo_name         = "myrepo"
+  team_slug         = "backend-team"
+  maintainer_users  = "akshit-modi"
+}
+```
+
 ## Requirements
 
 | Name | Version |
